@@ -334,6 +334,8 @@ docker image push silviostanzani/bulletinboard:2.0
 
 * criar instancia EC2
 
+* instalar aws-cli
+* 
 * Associar acesso de ssh
 
 * Download da chave pem
