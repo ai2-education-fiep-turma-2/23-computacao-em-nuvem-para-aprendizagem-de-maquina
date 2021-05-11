@@ -334,11 +334,17 @@ docker image push silviostanzani/bulletinboard:2.0
 
 * criar instancia EC2
 
-* instalar aws-cli
-* 
+* instalar aws-cli (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html)
+
 * Associar acesso de ssh
 
 * Download da chave pem
+
+* configurando terminal para acessar ambientes de nuvem
+```
+aws configure
+```
+
 
 * listando instancias
 
