@@ -350,6 +350,12 @@ aws configure
 
 	* aws ec2 describe-instances
 
+* Filtrando informações
+
+```
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,Tags[?Key==`Name`].Value|[0],State.Name,PrivateIpAddress,PublicIpAddress]' --output text | column -t
+```
+
 * start na instancia pela linha de comando
 
 	* aws ec2 start-instances --instance-ids i-086c823ec7054b54e
