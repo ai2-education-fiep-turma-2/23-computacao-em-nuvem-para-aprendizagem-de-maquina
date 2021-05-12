@@ -35,6 +35,7 @@ git clone https://git.heroku.com/dsview2.git
 	web: sh setup.sh && streamlit run streamlit-teste.py
 
 * requirements.txt  
+```
 alembic==1.4.2
 
 appdirs==1.4.4
@@ -112,12 +113,13 @@ WTForms==2.3.1
 zeep==3.4.0
 
 streamlit==0.75.0
+```
 
 * runtime.txt  
 	python-3.9.2
 
 * setup.sh  
-
+```
 	mkdir -p ~/.streamlit
 
 	echo "[server]
@@ -129,6 +131,7 @@ streamlit==0.75.0
 	enableCORS = false
 	
 	" > ~/.streamlit/config.toml
+```
 
 Seu Arquivo streamlit.py (deve chamar streamlit-teste.py)
 
