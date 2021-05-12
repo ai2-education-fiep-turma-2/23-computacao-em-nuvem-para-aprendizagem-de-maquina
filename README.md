@@ -85,7 +85,7 @@ python-3.9.2
     * Especifica como a aplicação entra em execução
     * Formato:
         ```
-	<process type>: <command>
+	process type: command
         ```
 	* Process type
 	    * web: aplicação para a qual será enviado pacotes HTTP
