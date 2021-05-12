@@ -160,6 +160,22 @@ git push origin master
 
 * acessa em: https://dsview2.herokuapp.com
 
+* Acessando logs
+
+```
+heroku logs 
+```
+
+* Inspecionando execução
+```
+heroku ps
+```
+
+* Exemplos:
+
+```
+heroku logs -a dsview2
+heroku ps -a dsview2
 
 ## Docker
 
