@@ -148,6 +148,7 @@ heroku ps
 ```
 heroku logs -a dsview2
 heroku ps -a dsview2
+```
 
 ## Docker
 
