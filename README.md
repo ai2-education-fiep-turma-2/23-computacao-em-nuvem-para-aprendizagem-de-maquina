@@ -249,6 +249,11 @@ docker image ls
 ```
 docker ps --all
 ```
+## apagar imagens docker
+
+```
+docker system prune -a
+```
 
 ## Montando um conteiner docker 
 
