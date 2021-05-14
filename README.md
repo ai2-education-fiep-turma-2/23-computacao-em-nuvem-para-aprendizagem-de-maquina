@@ -201,6 +201,13 @@ docker ps --all
 ```
 sudo docker rm nome-da-imagem
 ```
+
+## para a execução de um container
+
+```
+sudo docker stop serene_vaughan
+```
+
 ## limpar área do docker
 
 ```
@@ -350,6 +357,13 @@ sudo docker image build -t scikit:pred .
 sudo docker run scikit:pred
 ```
  
+ * salvando no docker hub para execução em outro local
+
+```
+sudo docker image tag scikit:predS silviostanzani/scikit:predS
+sudo docker image push silviostanzani/scikit:predS
+```
+
 ## AWS
 
 
