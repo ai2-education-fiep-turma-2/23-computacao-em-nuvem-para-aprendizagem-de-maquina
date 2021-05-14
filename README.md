@@ -256,7 +256,7 @@ docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
 ```
 
 * O conteiner é iniciado de modo asíncrono liberado o terminal
-* A porta 8080 são exportadas para serem acessíveis a partir do host do conteiner, porém essa porta é desviada para a porta 8000
+* A porta 8080 são exportadas para serem acessíveis a partir do host do conteiner, porém essa porta é desviada para a porta 8000 do host
 
 * Terminando a execução do conteiner
 ```
