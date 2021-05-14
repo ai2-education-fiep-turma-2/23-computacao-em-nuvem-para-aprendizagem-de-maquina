@@ -318,7 +318,17 @@ docker run --gpus all -v /home/silvio/git:/tf -p 8888:8888 --user $(id -u):$(id 
 
 ### Configurando conteiner para executar um comando e terminar a execução
 
+* Executando imagem com scikit
+* 
+```
+sudo docker run -it devashishupadhyay/scikit-learn-docker
+```
+
 * Montando Container para realizar inferencias
+
+```
+sudo docker run -ti -v /home/silvio/git/23-computacao-em-nuvem-para-aprendizagem-de-maquina/modelo/:/tf devashishupadhyay/scikit-learn-docker bash /tf/exec.sh
+```
 
 * Montando Container para obter soliticação de inferencias por micro serviço
 
