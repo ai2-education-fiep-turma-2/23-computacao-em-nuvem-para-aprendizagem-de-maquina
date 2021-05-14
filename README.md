@@ -332,8 +332,24 @@ sudo docker run -ti -v /home/silvio/git/23-computacao-em-nuvem-para-aprendizagem
 
 * Montando Container para obter soliticação de inferencias por micro serviço
 
+Dockerfile:
+```
+FROM devashishupadhyay/scikit-learn-docker
+COPY exec2.sh /tmp
+COPY exec3.sh /tmp
+COPY scaler.pkl /tmp
+COPY model.sav /tmp
+COPY predicao.py /tmp
+COPY predict-server.py /tmp
+CMD /tmp/exec3.sh
+```
 
-
+* montando e executando
+```
+sudo docker image build -t scikit:pred .
+sudo docker run scikit:pred
+```
+ 
 ## AWS
 
 
