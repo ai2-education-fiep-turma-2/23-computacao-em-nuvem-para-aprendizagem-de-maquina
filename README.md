@@ -263,7 +263,7 @@ docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
 docker rm --force bb
 ```
 
-* Criando uma versão nova de imagem com tag
+* Criando uma versão nova de imagem com tag (troque silviostanzani pelo seu repo docker hub)
 
 ``` 
 docker image tag bulletinboard:1.0 silviostanzani/bulletinboard:2.0
